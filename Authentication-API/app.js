@@ -9,7 +9,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://rishikamehta2004:rishu2004@cluster0.1yrcnpc.mongodb.net/authentication-api" //add the connection string here
+    "mongodb+srv://*********:******@cluster0.1yrcnpc.mongodb.net/***********" //add the connection string here
   )
   .then(() => console.log("DB connected successfully"))
   .catch((e) => console.log(e));
